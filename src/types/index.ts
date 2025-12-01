@@ -4,6 +4,8 @@ export interface User {
   role: number; // 0: Student, 1: Teacher, 2: Admin
   is_active: boolean;
   created_at: string;
+  class_name?: string; // ← 11/30追加
+  full_name?: string; // ← 11/30追加
 }
 
 export interface LoginResponse {
